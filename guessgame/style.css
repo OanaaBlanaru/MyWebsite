@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Press Start 2P', sans-serif;
+  color: #eee;
+  background-color: #d9aaea;
+  /* background-color: #60b347; */
+}
+
+/* LAYOUT */
+header {
+  position: relative;
+  height: 35vh;
+  border-bottom: 7px solid #eee;
+}
+
+main {
+  height: 65vh;
+  color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.left {
+  width: vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.right {
+  width: 52vh;
+  font-size: 2vh;
+}
+
+/* ELEMENTS STYLE */
+h1 {
+  font-size: 4vh;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.number {
+  background: #f4c6f4;
+  color: #3b074a;
+  font-size: 6vh;
+  width: 15vh;
+  padding: 3vh 0vh;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+
+.between {
+  font-size: 1.4vh;
+  position: absolute;
+  top: 2vh;
+  right: 2vh;
+}
+
+.again {
+  position: absolute;
+  top: 2vh;
+  left: 2vh;
+}
+
+.guess {
+  background: none;
+  border: 4px solid #500a5e;
+  font-family: inherit;
+  color: inherit;
+  font-size: 5vh;
+  padding: 2.5vh;
+  width: 25vh;
+  text-align: center;
+  display: block;
+  margin-bottom: 3vh;
+}
+
+.btn {
+  border: none;
+  background-color: #de7ef7;
+  color: #52054c;
+  font-size: 2vh;
+  font-family: inherit;
+  padding: 2vh 3vh;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #eeabeb;
+}
+
+.message {
+  margin-bottom: 8vh;
+  height: 3vh;
+}
+
+.label-score {
+  margin-bottom: 2vh;
+}
+
+.disabled {
+  opacity: 0.5; /* Example: reduce opacity to indicate the button is disabled */
+  cursor: not-allowed; /* Example: change cursor to indicate unclickable */
+}

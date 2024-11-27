@@ -1,0 +1,64 @@
+[20-Aug-2024 15:52:43 UTC] PHP Notice:  Undefined variable: conn in /home/d6ls9i2roxlr/public_html/visitors/display_visitors.php on line 10
+[20-Aug-2024 15:52:43 UTC] PHP Notice:  Trying to get property 'connect_error' of non-object in /home/d6ls9i2roxlr/public_html/visitors/display_visitors.php on line 10
+[20-Aug-2024 15:52:43 UTC] PHP Notice:  Undefined variable: conn in /home/d6ls9i2roxlr/public_html/visitors/display_visitors.php on line 16
+[20-Aug-2024 15:52:43 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/d6ls9i2roxlr/public_html/visitors/display_visitors.php:16
+Stack trace:
+#0 /home/d6ls9i2roxlr/public_html/visitors/index.php(87): include()
+#1 {main}
+  thrown in /home/d6ls9i2roxlr/public_html/visitors/display_visitors.php on line 16
+[20-Aug-2024 15:52:44 UTC] PHP Notice:  Undefined variable: conn in /home/d6ls9i2roxlr/public_html/visitors/display_visitors.php on line 10
+[20-Aug-2024 15:52:44 UTC] PHP Notice:  Trying to get property 'connect_error' of non-object in /home/d6ls9i2roxlr/public_html/visitors/display_visitors.php on line 10
+[20-Aug-2024 15:52:44 UTC] PHP Notice:  Undefined variable: conn in /home/d6ls9i2roxlr/public_html/visitors/display_visitors.php on line 16
+[20-Aug-2024 15:52:44 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/d6ls9i2roxlr/public_html/visitors/display_visitors.php:16
+Stack trace:
+#0 /home/d6ls9i2roxlr/public_html/visitors/index.php(87): include()
+#1 {main}
+  thrown in /home/d6ls9i2roxlr/public_html/visitors/display_visitors.php on line 16
+[20-Aug-2024 15:53:09 UTC] PHP Notice:  Undefined variable: conn in /home/d6ls9i2roxlr/public_html/visitors/display_visitors.php on line 10
+[20-Aug-2024 15:53:09 UTC] PHP Notice:  Trying to get property 'connect_error' of non-object in /home/d6ls9i2roxlr/public_html/visitors/display_visitors.php on line 10
+[20-Aug-2024 15:53:09 UTC] PHP Notice:  Undefined variable: conn in /home/d6ls9i2roxlr/public_html/visitors/display_visitors.php on line 16
+[20-Aug-2024 15:53:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/d6ls9i2roxlr/public_html/visitors/display_visitors.php:16
+Stack trace:
+#0 /home/d6ls9i2roxlr/public_html/visitors/index.php(87): include()
+#1 {main}
+  thrown in /home/d6ls9i2roxlr/public_html/visitors/display_visitors.php on line 16
+[20-Aug-2024 15:53:11 UTC] PHP Notice:  Undefined variable: conn in /home/d6ls9i2roxlr/public_html/visitors/display_visitors.php on line 10
+[20-Aug-2024 15:53:11 UTC] PHP Notice:  Trying to get property 'connect_error' of non-object in /home/d6ls9i2roxlr/public_html/visitors/display_visitors.php on line 10
+[20-Aug-2024 15:53:11 UTC] PHP Notice:  Undefined variable: conn in /home/d6ls9i2roxlr/public_html/visitors/display_visitors.php on line 16
+[20-Aug-2024 15:53:11 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/d6ls9i2roxlr/public_html/visitors/display_visitors.php:16
+Stack trace:
+#0 /home/d6ls9i2roxlr/public_html/visitors/index.php(87): include()
+#1 {main}
+  thrown in /home/d6ls9i2roxlr/public_html/visitors/display_visitors.php on line 16
+[20-Aug-2024 15:53:28 UTC] PHP Notice:  Undefined variable: conn in /home/d6ls9i2roxlr/public_html/visitors/display_visitors.php on line 10
+[20-Aug-2024 15:53:28 UTC] PHP Notice:  Trying to get property 'connect_error' of non-object in /home/d6ls9i2roxlr/public_html/visitors/display_visitors.php on line 10
+[20-Aug-2024 15:53:28 UTC] PHP Notice:  Undefined variable: conn in /home/d6ls9i2roxlr/public_html/visitors/display_visitors.php on line 16
+[20-Aug-2024 15:53:28 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/d6ls9i2roxlr/public_html/visitors/display_visitors.php:16
+Stack trace:
+#0 /home/d6ls9i2roxlr/public_html/visitors/index.php(87): include()
+#1 {main}
+  thrown in /home/d6ls9i2roxlr/public_html/visitors/display_visitors.php on line 16
+[20-Aug-2024 15:54:21 UTC] PHP Notice:  Undefined variable: conn in /home/d6ls9i2roxlr/public_html/visitors/display_visitors.php on line 10
+[20-Aug-2024 15:54:21 UTC] PHP Notice:  Trying to get property 'connect_error' of non-object in /home/d6ls9i2roxlr/public_html/visitors/display_visitors.php on line 10
+[20-Aug-2024 15:54:21 UTC] PHP Notice:  Undefined variable: conn in /home/d6ls9i2roxlr/public_html/visitors/display_visitors.php on line 16
+[20-Aug-2024 15:54:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/d6ls9i2roxlr/public_html/visitors/display_visitors.php:16
+Stack trace:
+#0 /home/d6ls9i2roxlr/public_html/visitors/index.php(87): include()
+#1 {main}
+  thrown in /home/d6ls9i2roxlr/public_html/visitors/display_visitors.php on line 16
+[20-Aug-2024 15:55:21 UTC] PHP Notice:  Undefined variable: conn in /home/d6ls9i2roxlr/public_html/visitors/display_visitors.php on line 10
+[20-Aug-2024 15:55:21 UTC] PHP Notice:  Trying to get property 'connect_error' of non-object in /home/d6ls9i2roxlr/public_html/visitors/display_visitors.php on line 10
+[20-Aug-2024 15:55:21 UTC] PHP Notice:  Undefined variable: conn in /home/d6ls9i2roxlr/public_html/visitors/display_visitors.php on line 21
+[20-Aug-2024 15:55:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/d6ls9i2roxlr/public_html/visitors/display_visitors.php:21
+Stack trace:
+#0 /home/d6ls9i2roxlr/public_html/visitors/index.php(87): include()
+#1 {main}
+  thrown in /home/d6ls9i2roxlr/public_html/visitors/display_visitors.php on line 21
+[20-Aug-2024 15:57:46 UTC] PHP Notice:  Undefined variable: conn in /home/d6ls9i2roxlr/public_html/visitors/display_visitors.php on line 10
+[20-Aug-2024 15:57:46 UTC] PHP Notice:  Trying to get property 'connect_error' of non-object in /home/d6ls9i2roxlr/public_html/visitors/display_visitors.php on line 10
+[20-Aug-2024 15:57:46 UTC] PHP Notice:  Undefined variable: conn in /home/d6ls9i2roxlr/public_html/visitors/display_visitors.php on line 17
+[20-Aug-2024 15:57:46 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/d6ls9i2roxlr/public_html/visitors/display_visitors.php:17
+Stack trace:
+#0 /home/d6ls9i2roxlr/public_html/visitors/index.php(91): include()
+#1 {main}
+  thrown in /home/d6ls9i2roxlr/public_html/visitors/display_visitors.php on line 17
