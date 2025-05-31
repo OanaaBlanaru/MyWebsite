@@ -122,3 +122,37 @@ h1 {
   opacity: 0.5; /* Example: reduce opacity to indicate the button is disabled */
   cursor: not-allowed; /* Example: change cursor to indicate unclickable */
 }
+.site-header {
+  text-align: center;
+  padding: 2.5rem 1rem 1.5rem 1rem;
+  background: transparent;
+}
+
+.site-header h1 {
+  margin: 0;
+  font-size: 2.7rem;
+  font-weight: 800;
+  color: #3a3a4a;
+  letter-spacing: 0.03em;
+}
+
+.site-header .subtitle {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+  color: #6a6a8a;
+  font-weight: 400;
+}
+
+.site-footer {
+  text-align: center;
+  padding: 2rem 1rem 1.5rem 1rem;
+  color: #f3f4f6;
+  font-size: 1rem;
+  background: transparent;
+  letter-spacing: 0.05em;
+  position: fixed;
+  width: 100vw;
+  bottom: 0;
+  left: 0;
+  z-index: 20;
+}
