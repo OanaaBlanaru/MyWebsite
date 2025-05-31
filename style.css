@@ -1,6 +1,6 @@
 body {
-  max-width: 1000px;
-  margin: auto;
+  /* max-width: 1000px;
+  margin: auto; */
   font-family: sans-serif;
   color: #5c0505e6;
   line-height: 1.5;
@@ -9,8 +9,6 @@ body {
   align: center;
   /* background-image: url("art-3561710_640.jpg"); */
   background-repeat: no-repeat;
-}
-body {
   background: linear-gradient(120deg, #adc1f8, #f5f6fa 40%, #fce9fc 100%);
   background-size: 200% 200%;
   animation: waveGradient 20s ease-in-out infinite;
@@ -164,8 +162,10 @@ p {
     100vh - 220px
   ); /* ajustează 220px după cât de mare e header+footer */
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  padding-top: 8vh;
 }
 
 .button-grid {
@@ -229,4 +229,37 @@ p {
   bottom: 0;
   left: 0;
   z-index: 20;
+}
+
+/* Responsive layout pentru mobil */
+@media (max-width: 1000px) {
+  .main-content {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: flex-start !important; /* schimbat din center */
+    min-height: 100vh !important;
+    width: 100vw !important;
+    max-width: 100vw !important;
+    margin: 0 !important;
+    padding: 6vh 0 0 0 !important; /* padding-top pentru spațiu de sus */
+    box-sizing: border-box !important;
+  }
+  .button-grid {
+    display: block !important;
+    max-width: 100vw !important;
+    width: 100vw !important;
+    box-sizing: border-box !important;
+    padding: 0 8px !important;
+    gap: 1.2rem !important;
+    justify-content: flex-start !important;
+    align-items: stretch !important;
+  }
+  .show-modal {
+    display: block !important;
+    width: 100% !important;
+    margin: 12px 0 !important;
+    font-size: 1.1rem !important;
+    box-sizing: border-box !important;
+  }
 }
