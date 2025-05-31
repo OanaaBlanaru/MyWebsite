@@ -46,20 +46,28 @@
       ></iframe
     ></noscript>
     <!-- End Google Tag Manager (noscript) -->
+ <!-- Header -->
+  <header class="site-header">
+    <h1>My Projects</h1>
+    <p class="subtitle">A collection of my web experiments and games</p>
+  </header>
 
-    <button class="show-modal">Wordpress project</button>
-    <button class="show-modal">Setup guide</button>
-    <button class="show-modal">Register</button>
-    <button class="show-modal">Guess game</button>
-    <button class="show-modal">Pig game</button>
-    <button class="show-modal">2048 game</button>
-    <button class="show-modal">DB Experiments</button>
-    <button class="show-modal">Pokemon Cards Match</button>
+    <div class="main-content">
+  <div class="button-grid">
+    <button class="show-modal" data-modal="1">Wordpress project</button>
+<button class="show-modal" data-modal="2">Setup guide</button>
+<button class="show-modal" data-modal="3">Register</button>
+<button class="show-modal" data-modal="4">Guess game</button>
+<button class="show-modal" data-modal="5">Pig game</button>
+<button class="show-modal" data-modal="6">2048 game</button>
+<button class="show-modal" data-modal="8">Pokemon Cards Match</button>
+  </div>
+</div>
 
     <div class="modal hidden" id="1">
       <button class="close-modal">&times;</button>
-      <h1>WordPress project</h1>
-      <p>This is an older WordPress project</p>
+      <h1 class="main-title">WordPress project</h1>
+    <div class="button grid">
       <button
         class="modal-link-button btn-style"
         data-href="https://proiectleonidaiasi.wordpress.com/"
@@ -67,97 +75,93 @@
         Visit Page
       </button>
     </div>
+    </div>
+    <div class="overlay hidden"></div>
     <div class="modal hidden" id="2">
       <button class="close-modal">&times;</button>
-      <h1>Setup guide</h1>
-      <p>You can find some information about setup for Java automation class</p>
-      <button
+      <h1 class="main-title">Setup guide for Java automation class</h1>
+
+      <div class="button-grid"><button
         class="modal-link-button btn-style"
-        data-href="https://oanabl.github.io/MyWebsite/SetupGuide"
+        data-href="https://oanaablanaru.github.io/MyWebsite/SetupGuide"
       >
         Visit Page
-      </button>
+      </button></div>
     </div>
     <div class="overlay hidden"></div>
 
     <div class="modal hidden" id="3">
       <button class="close-modal">&times;</button>
-      <h1>Register page</h1>
-      <p>
-        This is a page I had to create as homework for my automation with Java
-        and Selenium class
-      </p>
-      <button
+      <h1 class="main-title">Register page: homework for my automation with Java
+        and Selenium class</h1>
+    
+      <div class="button-grid"><button
         class="modal-link-button btn-style"
-        onclick="window.location.href='https://oanabl.github.io/MyWebsite/Register';"
+        data-href='https://oanaablanaru.github.io/MyWebsite/Register';"
       >
         Visit Page
-      </button>
+      </button></div>
     </div>
     <div class="overlay hidden"></div>
 
     <div class="modal hidden" id="4">
       <button class="close-modal">&times;</button>
-      <h1>Guess game</h1>
-      <p>Play the Guess my number game</p>
-      <button
+      <h1 class="main-title">Guess game</h1>
+     <div class="button-grid"> <button
         class="modal-link-button btn-style"
-        data-href="https://oanabl.github.io/MyWebsite/guessgame/"
+        data-href="https://oanaablanaru.github.io/MyWebsite/guessgame/"
       >
         Visit Page
-      </button>
+      </button></div>
     </div>
     <div class="overlay hidden"></div>
 
     <div class="modal hidden" id="5">
       <button class="close-modal">&times;</button>
-      <h1>Pig game</h1>
-      <p>Play the PIG GAME</p>
-      <button
+      <h1 class="main-title">Pig game</h1>
+     <div class="button-grid"> <button
         class="modal-link-button btn-style"
-        data-href="https://oanabl.github.io/MyWebsite/piggame"
+        data-href="https://oanaablanaru.github.io/MyWebsite/piggame"
       >
         Visit Page
-      </button>
+      </button></div>
     </div>
     <div class="overlay hidden"></div>
 
     <div class="modal hidden" id="6">
       <button class="close-modal">&times;</button>
-      <h1>2048 game</h1>
-      <p>Play the 2048 GAME</p>
-      <button
+      <h1 class="main-title">2048 game</h1>
+      <div class="button-grid"><button
         class="modal-link-button btn-style"
-        data-href="https://oanabl.github.io/MyWebsite/2048"
+        data-href="https://oanaablanaru.github.io/MyWebsite/2048"
       >
         Visit Page
-      </button>
+      </button></div>
     </div>
     <div class="overlay hidden"></div>
 
-    <div class="modal hidden" id="7">
+    <!-- <div class="modal hidden" id="7">
       <button class="close-modal">&times;</button>
-      <h1>DB Experiments</h1>
+      <h1 class="main-title">DB Experiments</h1>
       <p>This is an experiment to show the visitors I have to my website</p>
-      <button
+      <div class="button-grid"><button
         class="modal-link-button btn-style"
-        data-href="https://oanabl.github.io/MyWebsite/visitors/"
+        data-href="https://oanaablanaru.github.io/MyWebsite/visitors/"
       >
         Visit Page
-      </button>
+      </button></div>
     </div>
-    <div class="overlay hidden"></div>
+    <div class="overlay hidden"></div> -->
 
     <div class="modal hidden" id="8">
       <button class="close-modal">&times;</button>
-      <h1>Pokemon Cards Match Game</h1>
-      <p>Play the Pokemon Cards Match Game</p>
-      <button
+      <h1 class="main-title">Pokemon Cards Match Game</h1>
+      <div class="button-grid"><button
         class="modal-link-button btn-style"
-        data-href="https://oanabl.github.io/MyWebsite/pokemonCardsMatch/"
+        data-href="https://oanaablanaru.github.io/MyWebsite/pokemonCardsMatch/"
       >
         Visit Page
-      </button>
+      </button></div>
     </div>
     <div class="overlay hidden"></div>
 
@@ -168,5 +172,38 @@
       type="text/javascript"
       defer="defer"
     ></script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const starsContainer = document.createElement("div");
+        starsContainer.classList.add("stars-container");
+        document.body.appendChild(starsContainer);
+
+        for (let i = 0; i < 100; i++) {
+          let star = document.createElement("div");
+          star.classList.add("star");
+          let size = Math.random() * 5 + 1;
+          star.style.width = size + "px";
+          star.style.height = size + "px";
+          star.style.top = Math.random() * window.innerHeight + "px";
+          star.style.left = Math.random() * window.innerWidth + "px";
+          star.style.animationDuration = Math.random() * 5 + 2 + "s";
+          // Formă nedefinită:
+          star.style.borderRadius =
+            `${30 + Math.random() * 60}% ${30 + Math.random() * 60}% ${
+              30 + Math.random() * 60
+            }% ${30 + Math.random() * 60}% / ` +
+            `${30 + Math.random() * 60}% ${30 + Math.random() * 60}% ${
+              30 + Math.random() * 60
+            }% ${30 + Math.random() * 60}%`;
+          starsContainer.appendChild(star);
+        }
+      });
+    </script>
+      <!-- Footer -->
+  <footer class="site-footer">
+    <p>&copy; 2025 Oana Ablanaru &mdash; All rights reserved.</p>
+  </footer>
+</body>
   </body>
 </html>
