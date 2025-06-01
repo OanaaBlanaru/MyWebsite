@@ -16,21 +16,91 @@
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-5QPGFB35');</script>
     <!-- End Google Tag Manager -->
+   
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <title>Tool Setup</title>
+    <style>
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    background: linear-gradient(120deg, #adc1f8, #f5f6fa 40%, #fce9fc 100%);
+    background-size: 200% 200%;
+    animation: waveGradient 20s ease-in-out infinite;
+  }
+ @keyframes waveGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+/* 🔥 Stele animate */
+.stars-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 0;
+}
+.star {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background: #fef9dc; /* sau #f5dff8, dar #bfc6d1 e mai vizibil */
+  border-radius: 40% 60% 60% 40% / 50% 40% 60% 50%;
+  opacity: 0.8;
+  filter: blur(0.4px);
+  animation: twinkle 30s infinite alternate;
+  z-index: 1;
+  border: 2.5px dotted white; /* border mai gros și vizibil */
+}
+/* 🔥 Efect subtil de sclipire */
+@keyframes twinkle {
+  0% {
+    opacity: 0.2;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.5);
+  }
+  100% {
+    opacity: 0.2;
+    transform: scale(1);
+  }
+}
+</style>
     <link rel="icon" type="image/png" href="favicon.png"/>
+
+     
 </head>
 <style>
     th {border: 1px solid #dddddd; text-align: left; padding: 8px}
     td {border: 1px solid #dddddd; text-align: left; padding: 8px}
 </style>
-<body style = "max-width: 1000px; margin: auto; background-image:linear-gradient(to right, MintCream, lavender);">
+<body style = "max-width: 1000px; margin: auto">
     <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5QPGFB35"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
-<h1 id = "top" style = "text-align:center; color: purple; text-shadow: 2px 2px 5px grey"><b>TOOL SETUP GUIDE</b></h1>
+<!-- <h1 id = "top" style = "text-align:center; color: purple; text-shadow: 2px 2px 5px grey"><b>TOOL SETUP GUIDE</b></h1> -->
+
+<header class="site-header">
+    <h1><i class="fa-solid fa-gear"></i>  TOOL SETUP GUIDE</h1>
+    
+  </header>
     <div>
-        <table style = "background-color: white; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 purple;">
+        <table style = " box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 purple;">
             <tr>
                 <th><a href="#EnvVar">Environment Variables</a></th>
                 <th><a href="#ReqRools">Required Tools</a></th>
@@ -58,7 +128,7 @@
     <h2 id = "ReqRools" style = "color: purple; text-shadow: 2px 2px 5px grey"><b>Required Tools</b></h2>
 </div>
 <div>
-    <table style = "margin-left: auto; margin-right: auto; background-color: white; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 purple;">
+    <table style = "margin-left: auto; margin-right: auto; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 purple;">
         <tr>
             <th>Logo</th>
             <th>Tool Name</th>
@@ -200,7 +270,39 @@
 </div>
 <p style = "text-align: right"><a href="#top">Back to top</a></p>
 <hr style = "border-top: 2px solid purple">
-<!-- Master Tag add just before the closing </body> tag -->
+
 <script src="https://www.dwin1.com/82165.js" type="text/javascript" defer="defer"></script>
+
+ <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const starsContainer = document.createElement("div");
+        starsContainer.classList.add("stars-container");
+        document.body.appendChild(starsContainer);
+
+        for (let i = 0; i < 100; i++) {
+          let star = document.createElement("div");
+          star.classList.add("star");
+          let size = Math.random() * 5 + 1;
+          star.style.width = size + "px";
+          star.style.height = size + "px";
+          star.style.top = Math.random() * window.innerHeight + "px";
+          star.style.left = Math.random() * window.innerWidth + "px";
+          star.style.animationDuration = Math.random() * 5 + 2 + "s";
+          // Formă nedefinită:
+          star.style.borderRadius =
+            `${30 + Math.random() * 60}% ${30 + Math.random() * 60}% ${
+              30 + Math.random() * 60
+            }% ${30 + Math.random() * 60}% / ` +
+            `${30 + Math.random() * 60}% ${30 + Math.random() * 60}% ${
+              30 + Math.random() * 60
+            }% ${30 + Math.random() * 60}%`;
+          starsContainer.appendChild(star);
+        }
+      });
+    </script>
+      <!-- Footer -->
+  <footer class="site-footer">
+    <p>&copy; 2025 Oana Blanaru &mdash; All rights reserved.</p>
+  </footer>
 </body>
 </html>

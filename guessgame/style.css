@@ -156,3 +156,7 @@ h1 {
   left: 0;
   z-index: 20;
 }
+html,
+body {
+  overflow: auto !important;
+}

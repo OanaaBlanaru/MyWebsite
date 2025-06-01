@@ -37,8 +37,12 @@
       href="https://pics.clipartpng.com/Tropical_Flower_PNG_Clipart-194.png"
     />
     <title>Registration</title>
-
+    <link rel="stylesheet" type="text/css" href="../style.css" />
     <link rel="stylesheet" type="text/css" href="styleSheet.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
     <script src="script.js"></script>
 
     <!-- Fall-back Conversion Pixel - Mandatory -->
@@ -60,11 +64,11 @@
       ></iframe
     ></noscript>
     <!-- End Google Tag Manager (noscript) -->
-    <h1
-      style="text-align: center; color: purple; text-shadow: 2px 2px 5px grey"
-    >
-      <b>REGISTRATION FORM</b>
-    </h1>
+    <!-- Header -->
+    <header class="site-header">
+      <h1><i class="fa-solid fa-user-plus"></i> REGISTRATION FORM</h1>
+    </header>
+
     <div id="successMessage">Registration successful! Thank you!</div>
     <form id="form">
       <span style="float: left">
@@ -292,5 +296,36 @@
       type="text/javascript"
       defer="defer"
     ></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const starsContainer = document.createElement("div");
+        starsContainer.classList.add("stars-container");
+        document.body.appendChild(starsContainer);
+
+        for (let i = 0; i < 100; i++) {
+          let star = document.createElement("div");
+          star.classList.add("star");
+          let size = Math.random() * 5 + 1;
+          star.style.width = size + "px";
+          star.style.height = size + "px";
+          star.style.top = Math.random() * window.innerHeight + "px";
+          star.style.left = Math.random() * window.innerWidth + "px";
+          star.style.animationDuration = Math.random() * 5 + 2 + "s";
+          // Formă nedefinită:
+          star.style.borderRadius =
+            `${30 + Math.random() * 60}% ${30 + Math.random() * 60}% ${
+              30 + Math.random() * 60
+            }% ${30 + Math.random() * 60}% / ` +
+            `${30 + Math.random() * 60}% ${30 + Math.random() * 60}% ${
+              30 + Math.random() * 60
+            }% ${30 + Math.random() * 60}%`;
+          starsContainer.appendChild(star);
+        }
+      });
+    </script>
+    <!-- Footer -->
+    <footer class="site-footer">
+      <p>&copy; 2025 Oana Blanaru &mdash; All rights reserved.</p>
+    </footer>
   </body>
 </html>

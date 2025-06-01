@@ -100,3 +100,6 @@ hr {
   background-color: #ff2020;
   color: white;
 }
+html, body {
+  overflow: auto !important;
+}
