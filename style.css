@@ -195,6 +195,8 @@ p {
   align-items: center;
   justify-content: flex-start;
   padding-top: 8vh;
+  min-height: 0;
+  margin-bottom: 0;
 }
 
 .button-grid {
@@ -248,7 +250,62 @@ p {
   left: auto;
   z-index: 1;
 }
-
+/* Cute AI Assistant styles */
+/* filepath: c:\2mysite cu git\MyWebsite\style.css */
+#ai-assistant {
+  position: fixed;
+  bottom: 32px;
+  right: 32px;
+  z-index: 9999;
+  font-family: inherit;
+}
+#ai-toggle {
+  background: #fff;
+  border: 2px solid #adc1f8;
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+  font-size: 2rem;
+  cursor: pointer;
+  box-shadow: 0 4px 16px #adc1f880;
+  transition: transform 0.2s;
+}
+#ai-toggle:hover {
+  transform: scale(1.1) rotate(-10deg);
+}
+#ai-chat {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px #adc1f880;
+  padding: 16px;
+  margin-bottom: 12px;
+  min-width: 220px;
+  max-width: 300px;
+  transition: opacity 0.2s;
+}
+#ai-chat.hidden {
+  display: none;
+}
+.ai-bubble {
+  background: #adc1f8;
+  color: #22223b;
+  border-radius: 12px 12px 12px 0;
+  padding: 10px 14px;
+  margin-bottom: 8px;
+  font-size: 1rem;
+  max-width: 100%;
+}
+#ai-input {
+  border: 1px solid #adc1f8;
+  border-radius: 8px;
+  padding: 6px 10px;
+  width: 100%;
+  font-size: 1rem;
+  outline: none;
+}
 /* Responsive layout pentru mobil */
 @media (max-width: 1000px) {
   .main-content {
@@ -262,6 +319,8 @@ p {
     margin: 0 !important;
     padding: 6vh 0 0 0 !important; /* padding-top pentru spațiu de sus */
     box-sizing: border-box !important;
+    min-height: 0 !important;
+    margin-bottom: 0 !important;
   }
   .button-grid {
     display: block !important;
