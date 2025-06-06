@@ -12,7 +12,7 @@ body {
   background: linear-gradient(120deg, #adc1f8, #f5f6fa 40%, #fce9fc 100%);
   background-size: 200% 200%;
   animation: waveGradient 20s ease-in-out infinite;
-  position: relative;
+
   overflow: hidden;
 }
 
@@ -243,11 +243,12 @@ p {
   font-size: 1rem;
   background: transparent;
   letter-spacing: 0.05em;
-  position: relative;
-  width: 100vw;
-  bottom: 0;
-  left: 0;
-  z-index: 20;
+  width: 100%;
+  margin-top: 4vh;
+  position: static;
+  bottom: auto;
+  left: auto;
+  z-index: 1;
 }
 
 /* Responsive layout pentru mobil */
