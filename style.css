@@ -13,7 +13,7 @@ body {
   background-size: 200% 200%;
   animation: waveGradient 20s ease-in-out infinite;
 
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 @keyframes waveGradient {
