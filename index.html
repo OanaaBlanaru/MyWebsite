@@ -31,10 +31,13 @@
     <!-- End Google Tag Manager -->
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    
+
     <link rel="stylesheet" href="style.css" />
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
     <link rel="icon" type="image/png" href="favicon.png" />
     <title>My Projects</title>
   </head>
@@ -49,143 +52,106 @@
       ></iframe
     ></noscript>
     <!-- End Google Tag Manager (noscript) -->
- <!-- Header -->
-  <header class="site-header">
-    <h1>My Projects</h1>
-    <p class="subtitle">A collection of my web experiments and games</p>
-  </header>
+    <!-- Header -->
+    <a href="https://mywebprojects-11473.web.app/" class="home-card" aria-label="Home">
+   <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#7c3aed" viewBox="0 0 24 24">
+      <path d="M2.25 12.5a.75.75 0 0 1 .22-.53l8.75-8.75a.75.75 0 0 1 1.06 0l8.75 8.75a.75.75 0 0 1-1.06 1.06l-.47-.47V20a1 1 0 0 1-1 1h-4.5a.5.5 0 0 1-.5-.5V16a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v4.5a.5.5 0 0 1-.5.5H5.25a1 1 0 0 1-1-1v-7.44l-.47.47a.75.75 0 0 1-1.06-1.06Z"/>
+    </svg>
+</a>
+    </a>
+    <section class="hero-intro">
+      <img
+        src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/1f680.svg"
+        alt="Rocket"
+        class="hero-emoji"
+      />
+      <h1>Welcome to My Web Lab!</h1>
+      <p>
+        This is a growing collection of my favorite web projects, games, and
+        experiments.<br />
+        Explore, play, and get inspired!
+      </p>
+    </section>
 
-    <div class="main-content">
-  <div class="button-grid">
-    <!-- <button class="show-modal" data-modal="1">Wordpress project</button> -->
-<!-- <button class="show-modal" data-modal="2"> Setup guide</button>
-<button class="show-modal" data-modal="3">Register</button>
-<button class="show-modal" data-modal="4">Guess game</button>
-<button class="show-modal" data-modal="5">Pig game</button>
-<button class="show-modal" data-modal="6">2048 game</button>
-<button class="show-modal" data-modal="7">Pokemon Cards Match</button> -->
-<button class="show-modal" data-modal="1"><i class="fa-brands fa-wordpress"></i> Wordpress project</button>
-<button class="show-modal" data-modal="2"><i class="fa-solid fa-gear"></i> Setup guide</button>
-<button class="show-modal" data-modal="3"><i class="fa-solid fa-user-plus"></i> Register</button>
-<button class="show-modal" data-modal="4"><i class="fa-solid fa-gamepad"></i> Guess game</button>
-<button class="show-modal" data-modal="5"><i class="fa-solid fa-dice"></i> Pig game</button>
-<button class="show-modal" data-modal="6"><i class="fa-solid fa-th"></i> 2048 game</button>
-<button class="show-modal" data-modal="7"><i class="fa-solid fa-clone"></i> Pokemon Cards Match</button>
-<!-- <button class="show-modal" data-modal="8"><i class="fa-solid fa-clone"></i> Visitors</button> -->
-  </div>
-</div>
-
-    <div class="modal hidden" id="1">
-      <button class="close-modal">&times;</button>
-      <h1 class="main-title"> <i class="fa-brands fa-wordpress"></i> WordPress project</h1>
-    <div class="button grid">
-      <button
-        class="modal-link-button btn-style"
-        data-href="https://proiectleonidaiasi.wordpress.com/"
-      > Visit Page
-      </button>
+    <div class="project-grid">
+      <div class="project-card">
+        <i class="fa-brands fa-wordpress"></i>
+        <h3>Wordpress Project</h3>
+        <p>My custom Wordpress theme and plugins.</p>
+        <a href="https://proiectleonidaiasi.wordpress.com/" target="_blank"
+          >Open</a
+        >
+      </div>
+      <!-- <div class="project-card">
+        <i class="fa-solid fa-gear"></i>
+        <h3>Setup Guide</h3>
+        <p>Step-by-step guide to set up your own web projects.</p>
+        <a href="https://mywebprojects-11473.web.app/SetupGuide" target="_blank"
+          >Open</a
+        >
+      </div> -->
+      <div class="project-card">
+        <i class="fa-solid fa-user-plus"></i>
+        <h3>Register</h3>
+        <p>Register to access exclusive features.</p>
+        <a href="https://mywebprojects-11473.web.app/Register" target="_blank"
+          >Open</a
+        >
+      </div>
+      <div class="project-card">
+        <i class="fa-solid fa-gamepad"></i>
+        <h3>Guess Game</h3>
+        <p>Test your guessing skills in this fun game!</p>
+        <a href="https://mywebprojects-11473.web.app/guessgame/" target="_blank"
+          >Play Now</a
+        >
+      </div>
+      <div class="project-card">
+        <i class="fa-solid fa-dice"></i>
+        <h3>Pig Game</h3>
+        <p>A simple dice game with a twist!</p>
+        <a href="https://mywebprojects-11473.web.app/piggame" target="_blank"
+          >Play Now</a
+        >
+      </div>
+      <div class="project-card">
+        <i class="fa-solid fa-th"></i>
+        <h3>2048 Game</h3>
+        <p>Join the numbers and get to the 2048 tile!</p>
+        <a href="https://mywebprojects-11473.web.app/2048" target="_blank"
+          >Play Now</a
+        >
+      </div>
+      <div class="project-card">
+        <i class="fa-solid fa-clone"></i>
+        <h3>Pokemon Cards Match</h3>
+        <p>Match the Pokemon cards in this fun memory game!</p>
+        <a
+          href="https://mywebprojects-11473.web.app/pokemonCardsMatch/"
+          target="_blank"
+          >Play Now</a
+        >
+      </div>
     </div>
+    <!-- Footer -->
+    <footer class="site-footer">
+      <p>&copy; 2025 Oana Blanaru &mdash; All rights reserved.</p>
+    </footer>
+    <!-- Asistent AI Cute -->
+    <div id="ai-assistant">
+      <button id="ai-toggle">🤖</button>
+      <div id="ai-chat" class="hidden">
+        <div class="ai-bubble">
+          Hi! I'm your cute AI assistant! 😊<br />Ask me anything!
+        </div>
+        <input
+          id="ai-input"
+          type="text"
+          placeholder="Type here..."
+          autocomplete="off"
+        />
+      </div>
     </div>
-    <div class="overlay hidden"></div>
-    <div class="modal hidden" id="2">
-      <button class="close-modal">&times;</button>
-      <h1 class="main-title"><i class="fa-solid fa-gear"></i> Setup guide for Java automation class</h1>
-
-      <div class="button-grid"><button
-        class="modal-link-button btn-style"
-        data-href="https://mywebprojects-11473.web.app/SetupGuide"
-      >
-        Visit Page
-      </button></div>
-    </div>
-    <div class="overlay hidden"></div>
-
-    <div class="modal hidden" id="3">
-      <button class="close-modal">&times;</button>
-      <h1 class="main-title"><i class="fa-solid fa-user-plus"></i> Register page: homework for my automation with Java
-        and Selenium class</h1>
-    
-      <div class="button-grid"><button
-        class="modal-link-button btn-style"
-        data-href='https://mywebprojects-11473.web.app/Register';"
-      >
-        Visit Page
-      </button></div>
-    </div>
-    <div class="overlay hidden"></div>
-
-    <div class="modal hidden" id="4">
-      <button class="close-modal">&times;</button>
-      <h1 class="main-title"><i class="fa-solid fa-gamepad"></i> Guess game</h1>
-     <div class="button-grid"> <button
-        class="modal-link-button btn-style"
-        data-href="https://mywebprojects-11473.web.app/guessgame/"
-      >
-        Visit Page
-      </button></div>
-    </div>
-    <div class="overlay hidden"></div>
-
-    <div class="modal hidden" id="5">
-      <button class="close-modal">&times;</button>
-      <h1 class="main-title"><i class="fa-solid fa-dice"></i> Pig game</h1>
-     <div class="button-grid"> <button
-        class="modal-link-button btn-style"
-        data-href="https://mywebprojects-11473.web.app/piggame"
-      >
-        Visit Page
-      </button></div>
-    </div>
-    <div class="overlay hidden"></div>
-
-    <div class="modal hidden" id="6">
-      <button class="close-modal">&times;</button>
-      <h1 class="main-title"><i class="fa-solid fa-th"></i> 2048 game</h1>
-      <div class="button-grid"><button
-        class="modal-link-button btn-style"
-        data-href="https://mywebprojects-11473.web.app/2048"
-      >
-        Visit Page
-      </button></div>
-    </div>
-    <div class="overlay hidden"></div>
-
-    <div class="modal hidden" id="7">
-      <button class="close-modal">&times;</button>
-      <h1 class="main-title"><i class="fa-solid fa-clone"></i> Pokemon Cards Match Game</h1>
-      <div class="button-grid"><button
-        class="modal-link-button btn-style"
-        data-href="https://mywebprojects-11473.web.app/pokemonCardsMatch/"
-      >
-        Visit Page
-      </button></div>
-    </div>
-    <div class="overlay hidden"></div>
-
-    <!-- <div class="modal hidden" id="8">
-      <button class="close-modal">&times;</button>
-      <h1 class="main-title"><i class="fa-solid fa-clone"> DB Experiments</h1>
-      <div class="button-grid"><button
-        class="modal-link-button btn-style"
-        data-href="https://mywebprojects-11473.web.app/visitors/"
-      >
-        Visit Page
-      </button></div>
-    </div>
-    <div class="overlay hidden"></div> -->
-
-        <!-- Footer -->
-  <footer class="site-footer">
-    <p>&copy; 2025 Oana Blanaru &mdash; All rights reserved.</p>
-  </footer>
- <!-- Asistent AI Cute -->
-<div id="ai-assistant">
-  <button id="ai-toggle">🤖</button>
-  <div id="ai-chat" class="hidden">
-    <div class="ai-bubble">Hi! I'm your cute AI assistant! 😊<br>Ask me anything!</div>
-    <input id="ai-input" type="text" placeholder="Type here..." autocomplete="off"/>
-  </div>
-</div>
     <script src="script.js"></script>
     <!-- Master Tag add just before the closing body tag -->
     <script
@@ -221,7 +187,5 @@
         }
       });
     </script>
- 
-</body>
-  
+  </body>
 </html>

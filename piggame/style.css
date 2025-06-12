@@ -228,3 +228,36 @@ html,
 body {
   overflow: auto !important;
 }
+.home-card {
+  width: 72px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e89a9d;
+  border-radius: 24px;
+  box-shadow: 0 4px 24px rgba(128, 11, 11, 0.12);
+  transition: box-shadow 0.2s, background 0.2s, transform 0.2s;
+}
+
+.home-card:hover {
+  background: #e28585;
+  box-shadow: 0 8px 32px rgba(247, 98, 142, 0.18);
+  transform: scale(1.08);
+}
+
+.home-card svg {
+  color: #f2aad9;
+  transition: color 0.2s, fill 0.2s;
+  width: 40px;
+  height: 40px;
+}
+
+.home-card:hover svg {
+  color: #fff;
+  fill: #fff;
+}
+.home-card svg {
+  color: #eb2539;
+  fill: #eb2525;
+}
