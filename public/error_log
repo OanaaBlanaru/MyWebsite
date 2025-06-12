@@ -1,0 +1,45 @@
+[16-Aug-2024 15:26:44 UTC] PHP Warning:  require(/home/d6ls9i2roxlr/public_html/wp-blog-header.php): failed to open stream: No such file or directory in /home/d6ls9i2roxlr/public_html/index.php on line 17
+[16-Aug-2024 15:26:44 UTC] PHP Fatal error:  require(): Failed opening required '/home/d6ls9i2roxlr/public_html/wp-blog-header.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/d6ls9i2roxlr/public_html/index.php on line 17
+[20-Aug-2024 05:20:42 UTC] PHP Notice:  Undefined variable: ad in /home/d6ls9i2roxlr/public_html/collect_data.php on line 4
+[20-Aug-2024 05:20:42 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'd6ls9i2roxlr'@'localhost' (using password: YES) in /home/d6ls9i2roxlr/public_html/collect_data.php on line 8
+[20-Aug-2024 05:24:26 UTC] PHP Notice:  Undefined variable: ad in /home/d6ls9i2roxlr/public_html/collect_data.php on line 4
+[20-Aug-2024 05:24:26 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'd6ls9i2roxlr'@'localhost' (using password: YES) in /home/d6ls9i2roxlr/public_html/collect_data.php on line 8
+[20-Aug-2024 05:24:28 UTC] PHP Notice:  Undefined variable: ad in /home/d6ls9i2roxlr/public_html/collect_data.php on line 4
+[20-Aug-2024 05:24:28 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'd6ls9i2roxlr'@'localhost' (using password: YES) in /home/d6ls9i2roxlr/public_html/collect_data.php on line 8
+[20-Aug-2024 05:24:28 UTC] PHP Notice:  Undefined variable: ad in /home/d6ls9i2roxlr/public_html/collect_data.php on line 4
+[20-Aug-2024 05:24:28 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'd6ls9i2roxlr'@'localhost' (using password: YES) in /home/d6ls9i2roxlr/public_html/collect_data.php on line 8
+[20-Aug-2024 05:24:29 UTC] PHP Notice:  Undefined variable: ad in /home/d6ls9i2roxlr/public_html/collect_data.php on line 4
+[20-Aug-2024 05:24:29 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'd6ls9i2roxlr'@'localhost' (using password: YES) in /home/d6ls9i2roxlr/public_html/collect_data.php on line 8
+[20-Aug-2024 05:29:15 UTC] PHP Notice:  Undefined variable: ad in /home/d6ls9i2roxlr/public_html/collect_data.php on line 4
+[20-Aug-2024 05:29:15 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'd6ls9i2roxlr'@'localhost' (using password: YES) in /home/d6ls9i2roxlr/public_html/collect_data.php on line 8
+[20-Aug-2024 05:29:16 UTC] PHP Notice:  Undefined variable: ad in /home/d6ls9i2roxlr/public_html/collect_data.php on line 4
+[20-Aug-2024 05:29:16 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'd6ls9i2roxlr'@'localhost' (using password: YES) in /home/d6ls9i2roxlr/public_html/collect_data.php on line 8
+[20-Aug-2024 05:29:17 UTC] PHP Notice:  Undefined variable: ad in /home/d6ls9i2roxlr/public_html/collect_data.php on line 4
+[20-Aug-2024 05:29:17 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'd6ls9i2roxlr'@'localhost' (using password: YES) in /home/d6ls9i2roxlr/public_html/collect_data.php on line 8
+[20-Aug-2024 05:30:50 UTC] PHP Notice:  Undefined variable: ad in /home/d6ls9i2roxlr/public_html/collect_data.php on line 4
+[20-Aug-2024 05:30:50 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'd6ls9i2roxlr'@'localhost' (using password: YES) in /home/d6ls9i2roxlr/public_html/collect_data.php on line 8
+[20-Aug-2024 05:35:20 UTC] PHP Notice:  Undefined variable: ad in /home/d6ls9i2roxlr/public_html/collect_data.php on line 4
+[20-Aug-2024 05:35:20 UTC] PHP Warning:  mysqli::__construct() expects parameter 5 to be int, string given in /home/d6ls9i2roxlr/public_html/collect_data.php on line 9
+[20-Aug-2024 05:35:20 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/d6ls9i2roxlr/public_html/collect_data.php on line 27
+[20-Aug-2024 05:35:20 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/d6ls9i2roxlr/public_html/collect_data.php on line 30
+[20-Aug-2024 05:35:20 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/d6ls9i2roxlr/public_html/collect_data.php on line 33
+[20-Aug-2024 05:37:15 UTC] PHP Notice:  Undefined variable: ad in /home/d6ls9i2roxlr/public_html/collect_data.php on line 4
+[20-Aug-2024 05:37:15 UTC] PHP Warning:  mysqli::__construct() expects parameter 5 to be int, string given in /home/d6ls9i2roxlr/public_html/collect_data.php on line 9
+[20-Aug-2024 05:37:15 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/d6ls9i2roxlr/public_html/collect_data.php on line 27
+[20-Aug-2024 05:37:15 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/d6ls9i2roxlr/public_html/collect_data.php on line 30
+[20-Aug-2024 05:37:15 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/d6ls9i2roxlr/public_html/collect_data.php on line 33
+[20-Aug-2024 05:38:28 UTC] PHP Notice:  Undefined variable: ad in /home/d6ls9i2roxlr/public_html/collect_data.php on line 4
+[20-Aug-2024 05:38:28 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'd6ls9i2roxlr'@'localhost' (using password: YES) in /home/d6ls9i2roxlr/public_html/collect_data.php on line 8
+[20-Aug-2024 05:40:26 UTC] PHP Notice:  Undefined variable: ad in /home/d6ls9i2roxlr/public_html/collect_data.php on line 4
+[20-Aug-2024 05:40:26 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'd6ls9i2roxlr'@'localhost' (using password: YES) in /home/d6ls9i2roxlr/public_html/collect_data.php on line 8
+[20-Aug-2024 05:41:42 UTC] PHP Notice:  Undefined variable: ad in /home/d6ls9i2roxlr/public_html/collect_data.php on line 4
+[20-Aug-2024 05:41:42 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'd6ls9i2roxlr'@'localhost' (using password: YES) in /home/d6ls9i2roxlr/public_html/collect_data.php on line 8
+[20-Aug-2024 05:42:59 UTC] PHP Notice:  Undefined variable: ad in /home/d6ls9i2roxlr/public_html/collect_data.php on line 4
+[20-Aug-2024 05:42:59 UTC] PHP Notice:  Undefined variable: visitors in /home/d6ls9i2roxlr/public_html/collect_data.php on line 9
+[20-Aug-2024 05:42:59 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'd6ls9i2roxlr'@'localhost' (using password: YES) in /home/d6ls9i2roxlr/public_html/collect_data.php on line 9
+[20-Aug-2024 05:44:07 UTC] PHP Notice:  Undefined variable: ad in /home/d6ls9i2roxlr/public_html/collect_data.php on line 4
+[20-Aug-2024 05:44:07 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'd6ls9i2roxlr'@'localhost' (using password: YES) in /home/d6ls9i2roxlr/public_html/collect_data.php on line 9
+[20-Aug-2024 05:45:42 UTC] PHP Notice:  Undefined variable: ad in /home/d6ls9i2roxlr/public_html/collect_data.php on line 4
+[20-Aug-2024 05:45:42 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'd6ls9i2roxlr'@'localhost' (using password: YES) in /home/d6ls9i2roxlr/public_html/collect_data.php on line 9
+[20-Aug-2024 05:45:44 UTC] PHP Notice:  Undefined variable: ad in /home/d6ls9i2roxlr/public_html/collect_data.php on line 4
+[20-Aug-2024 05:45:44 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'd6ls9i2roxlr'@'localhost' (using password: YES) in /home/d6ls9i2roxlr/public_html/collect_data.php on line 9

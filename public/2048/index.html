@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-ZL7NS49NJ5"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-ZL7NS49NJ5");
+    </script>
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-5QPGFB35");
+    </script>
+    <!-- End Google Tag Manager -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale: 1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://pics.clipartpng.com/Tropical_Flower_PNG_Clipart-194.png"
+    />
+  <div class="main-content">
+    <title>2048 Game</title>
+  
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="2048.css" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script src="2048.js"></script>
+  </head>
+
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-5QPGFB35"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div class="site-header">
+      <h1><i class="fa-solid fa-th"></i> 2048</h1>
+      
+    </div>
+
+    <h2>Score: <span id="score">0</span></h2>
+    <h2>High Score: <span id="highScore">0</span></h2>
+
+    <div id="board">
+      <!-- <div class="tile x2">2</div>
+      <div class="tile x4">4</div>
+      <div class="tile x8">8</div> -->
+    </div>
+    </div>
+    <!-- Master Tag add just before the closing body tag -->
+    <script
+      src="https://www.dwin1.com/82165.js"
+      type="text/javascript"
+      defer="defer"
+    ></script>
+     <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const starsContainer = document.createElement("div");
+        starsContainer.classList.add("stars-container");
+        document.body.appendChild(starsContainer);
+
+        for (let i = 0; i < 100; i++) {
+          let star = document.createElement("div");
+          star.classList.add("star");
+          let size = Math.random() * 5 + 1;
+          star.style.width = size + "px";
+          star.style.height = size + "px";
+          star.style.top = Math.random() * window.innerHeight + "px";
+          star.style.left = Math.random() * window.innerWidth + "px";
+          star.style.animationDuration = Math.random() * 5 + 2 + "s";
+          // Formă nedefinită:
+          star.style.borderRadius =
+            `${30 + Math.random() * 60}% ${30 + Math.random() * 60}% ${
+              30 + Math.random() * 60
+            }% ${30 + Math.random() * 60}% / ` +
+            `${30 + Math.random() * 60}% ${30 + Math.random() * 60}% ${
+              30 + Math.random() * 60
+            }% ${30 + Math.random() * 60}%`;
+          starsContainer.appendChild(star);
+        }
+      });
+    </script>
+      <!-- Footer -->
+    <footer class="site-footer">
+    <p>&copy; 2025 Oana Blanaru &mdash; All rights reserved.</p>
+  </footer>
+  </body>
+</html>
