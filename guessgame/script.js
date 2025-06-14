@@ -11,7 +11,7 @@ console.log(document.querySelector('.guess').value);
 */
 //event listener
 
-let secretNumber = Math.trunc(Math.random() * 20) + 1;
+let secretNumber = Math.trunc(Math.random() * 10) + 1;
 let score = 20;
 let highscore = 0;
 
@@ -60,7 +60,7 @@ document.querySelector('.again').addEventListener('click', function () {
   myButton.classList.remove('disabled');
   //location.reload(); //nu merge cu reload ca tre sa ment
   score = 20;
-  secretNumber = Math.trunc(Math.random() * 20) + 1;
+  secretNumber = Math.trunc(Math.random() * 10) + 1;
   displayMessage('Start guessing...');
   document.querySelector('.score').textContent = score;
   document.querySelector('.number').textContent = '?';
