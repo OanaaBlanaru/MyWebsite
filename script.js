@@ -40,7 +40,7 @@ linkButtons.forEach(function (button) {
   button.addEventListener("click", function () {
     const href = button.getAttribute("data-href");
     if (href) {
-      window.open(href, "_blank");
+      window.location.href = href;
     }
   });
 });
