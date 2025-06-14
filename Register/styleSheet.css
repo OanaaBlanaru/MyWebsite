@@ -1,19 +1,46 @@
 /*Style the body of the file*/
 
 form {
-  background-image: linear-gradient(to right, MintCream, lavender);
-  width: 550px;
-  height: 400px auto;
-  margin: 50px;
-  padding: 5px;
-  border-radius: 8px;
-  border: 2px solid purple;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 purple;
+  width: 320px;
+  margin: 60px auto;
+  padding: 32px 24px;
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(37, 99, 235, 0.18);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(37, 99, 235, 0.18);
   display: flex;
-  justify-content: space-between;
-  /* max-height: 1000px;
-  overflow: auto; */
-  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form h2 {
+  margin-bottom: 24px;
+  color: #2563eb;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-shadow: 0 2px 8px rgba(37, 99, 235, 0.08);
+}
+
+.form input[type="text"] {
+  width: 80px;
+  padding: 10px;
+  border-radius: 12px;
+  border: 1px solid #2563eb33;
+  background: rgba(255, 255, 255, 0.5);
+  font-size: 1.4em;
+  text-align: center;
+  margin-bottom: 20px;
+  outline: none;
+  color: #2563eb;
+  box-shadow: 0 2px 8px rgba(37, 99, 235, 0.08);
+  transition: border 0.2s, box-shadow 0.2s;
+}
+
+.form input[type="text"]:focus {
+  border: 1.5px solid #2563eb;
+  box-shadow: 0 4px 16px rgba(37, 99, 235, 0.12);
 }
 
 span {
@@ -25,9 +52,24 @@ span {
 }
 
 button {
-  border-radius: 1px;
-  border: 1px solid purple;
-  box-shadow: 0 5px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 2px 0 purple;
+  padding: 12px 36px;
+  border-radius: 16px;
+  border: none;
+  background: rgba(255, 255, 255, 0.18);
+  box-shadow: 0 4px 24px rgba(37, 99, 235, 0.18);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  color: #2563eb;
+  font-size: 1.1em;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s, transform 0.2s;
+  outline: none;
+}
+button:hover {
+  background: rgba(37, 99, 235, 0.18);
+  color: #fff;
+  transform: scale(1.04);
 }
 
 #successMessage {
