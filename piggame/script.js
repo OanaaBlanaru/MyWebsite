@@ -97,6 +97,9 @@ buttonHold.addEventListener('click', function () {
       document
         .querySelector(`.player--${activePlayer}`)
         .classList.remove(`player--active`);
+      document.querySelector('.winner-message').textContent = `Player ${
+        activePlayer + 1
+      } won !`;
     } else {
       //3 varianta b. Switch to next player
       switchPlayer();
@@ -104,5 +107,8 @@ buttonHold.addEventListener('click', function () {
     isHoldAllowed = false; // Prevent further holds until the next dice roll
   }
 });
-
-buttonNew.addEventListener('click', init);
+buttonNew.addEventListener('click', function () {
+  init();
+  // Reseteaza mesajul la inceputul jocului
+  document.querySelector('.winner-message').textContent = '';
+});
